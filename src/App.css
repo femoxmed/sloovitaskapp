@@ -14,8 +14,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  height: 50px;
+  min-height: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,6 +25,25 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.App-sidebar {
+  background-color: #323e4d;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  height: 100vh;
+  min-height: 100vh;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
 
 .App-link {
   color: #61dafb;

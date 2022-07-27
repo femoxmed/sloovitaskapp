@@ -1,0 +1,15 @@
+.task-input.form-control {
+    max-width: 380px;
+}
+
+.task-form-container {
+    max-width: 380px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+
+}
+
+.text-left {
+    text-align: left;
+}

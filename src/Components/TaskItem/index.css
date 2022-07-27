@@ -1,0 +1,27 @@
+.taskitem-container {
+    min-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    border : 2px solid #eaeaeb;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.taskitem-description {
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: left;
+    max-width: 380px;
+}
+
+.taskitem-date {
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgb(241, 156, 156);
+    text-align: left;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
